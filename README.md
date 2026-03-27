@@ -1,8 +1,36 @@
-# Basic Calculator (Java)
+# Project Overview
+
+This repository now contains two simple projects:
+
+1. **Basic Calculator (Java)** - A command-line calculator program written in Java.
+2. **Northline Menswear Website** - A static website for a men's clothing store built with plain HTML and CSS.
+
+## Mens Clothing Store Website
+
+The website is located in:
+
+```bash
+/Users/jaygohil/.cline/worktrees/7e3f5/cline-kanban/website
+```
+
+### Files
+
+- `website/index.html`
+- `website/styles.css`
+
+### How to Open the Website
+
+Open the HTML file directly in your browser:
+
+```bash
+open /Users/jaygohil/.cline/worktrees/7e3f5/cline-kanban/website/index.html
+```
+
+## Basic Calculator (Java)
 
 A simple command-line calculator program written in Java that supports basic arithmetic operations.
 
-## Features
+### Features
 
 - **Addition** - Add two numbers
 - **Subtraction** - Subtract two numbers
@@ -11,52 +39,20 @@ A simple command-line calculator program written in Java that supports basic ari
 - **Interactive Menu** - User-friendly menu-driven interface
 - **Input Validation** - Handles invalid inputs gracefully
 
-## Requirements
+### Requirements
 
 - Java Development Kit (JDK) 8 or higher
 
-## How to Compile
+### How to Compile
 
 ```bash
 cd src
 javac Calculator.java
 ```
 
-## How to Run
+### How to Run
 
 ```bash
 cd src
 java Calculator
-```
-
-## Usage Example
-
-```
-==========================
-   Basic Calculator
-==========================
-
-Select operation:
-1. Addition (+)
-2. Subtraction (-)
-3. Multiplication (*)
-4. Division (/)
-5. Exit
-
-Enter choice (1-5): 1
-Enter first number: 10
-Enter second number: 5
-
---------------------------
-Result: 10.00 + 5.00 = 15.00
---------------------------
-```
-
-## Project Structure
-
-```
-.
-├── README.md
-└── src/
-    └── Calculator.java
 ```
